@@ -18,7 +18,8 @@ export default function Card({result}) {
        alt="movie poster not avaliable" 
        className="sm:rounded-t-lg group-hover:opacity-70 transition-opacity duration-200"
        placeholder="blur"
-       blurDataURL="/spinner.svg"/>
+       blurDataURL="/spinner.svg"
+       />
       </Link>
       <div className="p-2">
         <p className="line-clamp-2 text-md">{result.overview}</p>
