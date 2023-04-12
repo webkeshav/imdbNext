@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function page() {
   return (
@@ -11,6 +12,7 @@ export default function page() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor quia obcaecati aspernatur natus asperiores minus at! Fugit nihil ipsa id aliquam expedita alias! Ab corporis quo dolorum quisquam animi magni deleniti, maiores natus corrupti.
       </p>
+      
     </div>
   )
 }
